@@ -1,8 +1,11 @@
 {
     "Lua.diagnostics.globals": [
-        "love"
+        "love",
+        "load_resources",
+        "load_walking"
     ],
     "Lua.diagnostics.disable": [
-        "undefined-global"
+        "undefined-global",
+        "lowercase-global"
     ]
 }
