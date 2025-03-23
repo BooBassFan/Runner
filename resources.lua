@@ -1,6 +1,8 @@
 function load_resources()
     load_walking()
     load_jumping()
+    load_morphing()
+    load_levels()
 end
 
 function load_walking()
@@ -26,4 +28,26 @@ function load_jumping()
     JUMPING6 = love.graphics.newImage("Resources/Jumping/Jumping6.png")
     JUMPING7 = love.graphics.newImage("Resources/Jumping/Jumping7.png")
     JUMPING8 = love.graphics.newImage("Resources/Jumping/Jumping8.png")
+end
+
+function load_morphing()
+    MORPHING0 = love.graphics.newImage("Resources/Morphing/Morphing0.png")
+    MORPHING1 = love.graphics.newImage("Resources/Morphing/Morphing1.png")
+    MORPHING2 = love.graphics.newImage("Resources/Morphing/Morphing2.png")
+    MORPHING3 = love.graphics.newImage("Resources/Morphing/Morphing3.png")
+    MORPHING4 = love.graphics.newImage("Resources/Morphing/Morphing4.png")
+    MORPHING5 = love.graphics.newImage("Resources/Morphing/Morphing5.png")
+    MORPHING6 = love.graphics.newImage("Resources/Morphing/Morphing6.png")
+    MORPHING7 = love.graphics.newImage("Resources/Morphing/Morphing7.png")
+    MORPHING8 = love.graphics.newImage("Resources/Morphing/Morphing8.png")
+    MORPHING9 = love.graphics.newImage("Resources/Morphing/Morphing9.png")
+    MORPHING10 = love.graphics.newImage("Resources/Morphing/Morphing10.png")
+    MORPHING11 = love.graphics.newImage("Resources/Morphing/Morphing11.png")
+end
+
+function load_levels()
+    CRATERIA0 = love.graphics.newImage("Resources/Levels/Crateria/Crateria0.png")
+    CRATERIA1 = love.graphics.newImage("Resources/Levels/Crateria/Crateria1.png")
+    CRATERIA2 = love.graphics.newImage("Resources/Levels/Crateria/Crateria2.png")
+    CRATERIA3 = love.graphics.newImage("Resources/Levels/Crateria/Crateria3.png")
 end
